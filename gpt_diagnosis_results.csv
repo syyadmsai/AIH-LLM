@@ -1,0 +1,2338 @@
+Case,Symptoms,True Diagnosis,Predicted Diagnosis,Correct,Raw GPT Output,Prompt Used
+1,"Anaphylaxis (disorder), Cough (finding)",Tree nut (substance),Tree nut (substance),True,Tree nut (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+2,"Rhinoconjunctivitis (disorder), Eruption of skin (disorder)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+3,"Anaphylaxis (disorder), Allergic angioedema (disorder)",Shellfish (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Anaphylaxis (disorder), Allergic angioedema (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+4,"Wheal (finding), Allergic angioedema (disorder)",Peanut (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Wheal (finding), Allergic angioedema (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+5,"Rhinoconjunctivitis (disorder), Allergic angioedema (disorder)",Penicillin V,Animal dander (substance),False,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Allergic angioedema (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+6,"Eruption of skin (disorder), Finding of vomiting (finding)",Peanut (substance),"Cow's milk (substance)
+
+The symptoms of skin eruption and vomiting are commonly associated with an allergic reaction to cow's milk.",False,"Cow's milk (substance)
+
+The symptoms of skin eruption and vomiting are commonly associated with an allergic reaction to cow's milk.","Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Eruption of skin (disorder), Finding of vomiting (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+7,"Nausea (finding), Cough (finding)",Shellfish (substance),Cow's milk (substance),False,"To analyze the symptoms presented, let's break down the potential connections:
+
+- ""Cough"" (finding) is commonly associated with respiratory allergens such as Animal dander, House dust mite, Grass pollen, Mold, and Tree pollen.
+- ""Nausea"" (finding) is less commonly associated with respiratory allergens and is more typical of reactions to ingested substances or medications.
+
+Given the combination of symptoms ""Nausea"" and ""Cough,"" the more likely scenario is an ingested substance or medication that could cause both gastrointestinal and respiratory symptoms.
+
+From the list of possible diagnoses, Aspirin and Ibuprofen are known to cause nausea and cough as potential side effects or allergic reactions in some individuals. However, considering the context of allergies, Foods like Cow's milk, Eggs, Fish, Peanut, Shellfish, Soya bean, Tree nut, and Wheat, which are common allergens, could also cause these symptoms if ingested.
+
+Considering the examples provided, where food substances were often the diagnosis for paired symptoms, and the symptoms in question, I would lean towards a food-related allergen.
+
+Thus, the most fitting diagnosis could be ""Cow's milk (substance),"" as it is a common allergen that can cause both nausea and respiratory symptoms like cough in sensitive individuals.
+
+Diagnosis: Cow's milk (substance)","Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Nausea (finding), Cough (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+8,"Eruption of skin (disorder), Cough (finding)",Shellfish (substance),Animal dander (substance),False,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Eruption of skin (disorder), Cough (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+9,"Wheal (finding), Allergic angioedema (disorder)",Peanut (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Wheal (finding), Allergic angioedema (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+10,"Anaphylaxis (disorder), Cough (finding)",Tree nut (substance),Tree nut (substance),True,Tree nut (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+11,"Wheal (finding), Rhinoconjunctivitis (disorder)",Latex (substance),Animal dander (substance),False,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Wheal (finding), Rhinoconjunctivitis (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+12,"Rhinoconjunctivitis (disorder), Eruption of skin (disorder)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+13,"Dyspnea (finding), Finding of vomiting (finding)",Fish (substance),"Shellfish (substance)
+
+The symptoms of dyspnea and vomiting can be associated with an allergic reaction to shellfish.",False,"Shellfish (substance)
+
+The symptoms of dyspnea and vomiting can be associated with an allergic reaction to shellfish.","Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Dyspnea (finding), Finding of vomiting (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+14,"Dyspnea (finding), Rhinoconjunctivitis (disorder)",Fish (substance),Animal dander (substance),False,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Dyspnea (finding), Rhinoconjunctivitis (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+15,"Itching (finding), Dyspnea (finding)",Latex (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Itching (finding), Dyspnea (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+16,"Allergic angioedema (disorder), Eruption of skin (disorder)",Shellfish (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Allergic angioedema (disorder), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+17,"Wheal (finding), Allergic angioedema (disorder)",Peanut (substance),"Bee venom (substance)
+
+The symptoms of wheal and allergic angioedema are commonly associated with allergic reactions to insect stings, such as those from bees.",False,"Bee venom (substance)
+
+The symptoms of wheal and allergic angioedema are commonly associated with allergic reactions to insect stings, such as those from bees.","Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Wheal (finding), Allergic angioedema (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+18,"Anaphylaxis (disorder), Allergic angioedema (disorder)",Shellfish (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Anaphylaxis (disorder), Allergic angioedema (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+19,"Wheal (finding), Wheezing (finding)",Peanut (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Wheal (finding), Wheezing (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+20,"Dyspnea (finding), Finding of vomiting (finding)",Peanut (substance),"Shellfish (substance)
+
+The symptoms of dyspnea and vomiting are often associated with allergic reactions to shellfish.",False,"Shellfish (substance)
+
+The symptoms of dyspnea and vomiting are often associated with allergic reactions to shellfish.","Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Dyspnea (finding), Finding of vomiting (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+21,"Allergic angioedema (disorder), Wheal (finding)",Cow's milk (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Allergic angioedema (disorder), Wheal (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+22,"Allergic angioedema (disorder), Eruption of skin (disorder)",Shellfish (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Allergic angioedema (disorder), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+23,"Allergic angioedema (disorder), Eruption of skin (disorder)",Shellfish (substance),Tree nut (substance),False,Tree nut (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Allergic angioedema (disorder), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+24,"Anaphylaxis (disorder), Cough (finding)",Tree nut (substance),Tree nut (substance),True,Tree nut (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+25,"Anaphylaxis (disorder), Wheal (finding)",Aspirin,"Bee venom (substance)
+
+The symptoms of anaphylaxis and wheal are commonly associated with an allergic reaction to bee venom, making it the most likely diagnosis from the given options.",False,"Bee venom (substance)
+
+The symptoms of anaphylaxis and wheal are commonly associated with an allergic reaction to bee venom, making it the most likely diagnosis from the given options.","Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Anaphylaxis (disorder), Wheal (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+26,"Eruption of skin (disorder), Allergic angioedema (disorder)",Penicillin V,Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Eruption of skin (disorder), Allergic angioedema (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+27,"Wheal (finding), Dyspnea (finding)",Tree nut (substance),"Bee venom (substance)
+
+The symptoms of wheal and dyspnea are indicative of an allergic reaction, and bee venom is known to cause such reactions, including skin wheals and respiratory difficulties.",False,"Bee venom (substance)
+
+The symptoms of wheal and dyspnea are indicative of an allergic reaction, and bee venom is known to cause such reactions, including skin wheals and respiratory difficulties.","Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Wheal (finding), Dyspnea (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+28,"Dyspnea (finding), Finding of vomiting (finding)",Fish (substance),Shellfish (substance),False,Shellfish (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Dyspnea (finding), Finding of vomiting (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+29,"Rhinoconjunctivitis (disorder), Wheal (finding)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Wheal (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+30,"Wheezing, Allergic skin rash",Mold (organism),Animal dander (substance),False,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Wheezing, Allergic skin rash
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+31,"Rhinoconjunctivitis (disorder), Eruption of skin (disorder)",Fish (substance),Animal dander (substance),False,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+32,"Eruption of skin (disorder), Dyspnea (finding)",Penicillin V,Fish (substance),False,Fish (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Eruption of skin (disorder), Dyspnea (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+33,"Finding of vomiting (finding), Rhinoconjunctivitis (disorder)",Fish (substance),Cow's milk (substance),False,Cow's milk (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Finding of vomiting (finding), Rhinoconjunctivitis (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+34,"Rhinoconjunctivitis (disorder), Eruption of skin (disorder)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+35,"Rhinoconjunctivitis (disorder), Wheal (finding)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Wheal (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+36,"Rhinoconjunctivitis (disorder), Dyspnea (finding)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Dyspnea (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+37,"Rhinoconjunctivitis (disorder), Eruption of skin (disorder)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+38,"Wheezing, Nose running",Mold (organism),Animal dander (substance),False,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Wheezing, Nose running
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+39,"Finding of vomiting (finding), Wheal (finding)",Cow's milk (substance),Cow's milk (substance),True,Diagnosis: Cow's milk (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Finding of vomiting (finding), Wheal (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+40,"Sneezing, Allergic skin rash",Mold (organism),Animal dander (substance),False,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Sneezing, Allergic skin rash
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+41,"Allergic angioedema (disorder), Eruption of skin (disorder)",Shellfish (substance),Shellfish (substance),True,Shellfish (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Allergic angioedema (disorder), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+42,"Sneezing, Allergic skin rash",Mold (organism),Grass pollen (substance),False,Grass pollen (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Sneezing, Allergic skin rash
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+43,"Dyspnea (finding), Eruption of skin (disorder)",Fish (substance),Fish (substance),True,Fish (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+44,"Anaphylaxis (disorder), Allergic angioedema (disorder)",Tree nut (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Anaphylaxis (disorder), Allergic angioedema (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+45,"Rhinoconjunctivitis (disorder), Dyspnea (finding)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Dyspnea (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+46,"Rhinoconjunctivitis (disorder), Wheal (finding)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Wheal (finding)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+47,"Cough (finding), Rhinoconjunctivitis (disorder)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+48,"Anaphylaxis (disorder), Allergic angioedema (disorder)",Shellfish (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Anaphylaxis (disorder), Allergic angioedema (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+49,"Rhinoconjunctivitis (disorder), Eruption of skin (disorder)",Animal dander (substance),Animal dander (substance),True,Animal dander (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
+50,"Wheal (finding), Allergic angioedema (disorder)",Peanut (substance),Bee venom (substance),False,Bee venom (substance),"Example:
+Symptoms: Anaphylaxis (disorder), Cough (finding)
+Diagnosis: Tree nut (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Dyspnea (finding), Eruption of skin (disorder)
+Diagnosis: Fish (substance)
+
+Example:
+Symptoms: Rhinoconjunctivitis (disorder), Eruption of skin (disorder)
+Diagnosis: Animal dander (substance)
+
+Example:
+Symptoms: Cough (finding), Rhinoconjunctivitis (disorder)
+Diagnosis: Animal dander (substance)
+
+
+Now, analyze this:
+Symptoms: Wheal (finding), Allergic angioedema (disorder)
+Choose one of the following diagnoses:
+- Animal dander (substance)
+- Aspirin
+- Bee venom (substance)
+- cefdinir
+- Cow's milk (substance)
+- Eggs (edible) (substance)
+- Fish (substance)
+- Grass pollen (substance)
+- House dust mite (organism)
+- Ibuprofen
+- Latex (substance)
+- Lisinopril
+- Mold (organism)
+- Peanut (substance)
+- Penicillin V
+- Shellfish (substance)
+- Soya bean (substance)
+- Sulfamethoxazole / Trimethoprim
+- Tree nut (substance)
+- Tree pollen (substance)
+- Wheat (substance)
+Diagnosis:"
